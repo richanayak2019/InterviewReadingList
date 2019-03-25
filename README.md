@@ -33,3 +33,7 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 (18) CI/ CD , how to have hot deployment
 
 (19)How to a have autocomplete 
+
+(20)sharding at application level vs partitoning 
+
+(21) two-phase commit protocol and instead relied on replication protocols.
