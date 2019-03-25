@@ -21,4 +21,10 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 
 (10)Why secondary indexes in Hbase is not good  
 
-(11)
+(11)design twitter, tiny url, Parking system
+(12) Mongo db how to have multiple get unique jobId
+(13)threading print even, odd alternate
+(14)Colleberative filtering
+(15)pirates cap question
+(16)Can kafka has dynamic topic creation and consumers
+(17)
