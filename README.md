@@ -37,3 +37,6 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 (20)sharding at application level vs partitoning 
 
 (21) two-phase commit protocol and instead relied on replication protocols.
+
+(22)https://dzone.com/articles/how-implement-robust-and  mongo db architecture related problems:-
+---https://stackoverflow.com/questions/6635718/how-to-work-around-the-lack-of-transactions-in-mongodb
