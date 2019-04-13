@@ -40,3 +40,10 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 
 (22)https://dzone.com/articles/how-implement-robust-and  mongo db architecture related problems:-
 ---https://stackoverflow.com/questions/6635718/how-to-work-around-the-lack-of-transactions-in-mongodb
+
+(23)Cassandra :- sstables, quorum, tombstones
+  --- https://www.youtube.com/watch?v=xQnIN9bW0og&t=38s
+(24)cassandra vs mongo
+--https://scalegrid.io/blog/cassandra-vs-mongodb/
+(25)Range querries in Casandra, secodary and clusterring indexes
+-- https://stackoverflow.com/questions/18202639/range-queries-in-cassandra-cql-3-0
