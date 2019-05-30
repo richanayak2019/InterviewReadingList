@@ -47,3 +47,13 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 --https://scalegrid.io/blog/cassandra-vs-mongodb/
 (25)Range querries in Casandra, secodary and clusterring indexes
 -- https://stackoverflow.com/questions/18202639/range-queries-in-cassandra-cql-3-0
+
+(26) reinterant lock vs syncroised:-
+  --https://www.geeksforgeeks.org/reentrant-lock-java/
+  --https://www.tutorialspoint.com/java/java_thread_synchronization.htm
+  
+(26)java cuyclic barrer:-
+--https://www.geeksforgeeks.org/java-util-concurrent-cyclicbarrier-java/
+
+(27)  kafka vs rabbit mq:-
+--https://jack-vanlightly.com/blog/2017/12/15/rabbitmq-vs-kafka-part-4-message-delivery-semantics-and-guarantees
