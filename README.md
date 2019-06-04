@@ -57,3 +57,7 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 
 (27)  kafka vs rabbit mq:-
 --https://jack-vanlightly.com/blog/2017/12/15/rabbitmq-vs-kafka-part-4-message-delivery-semantics-and-guarantees
+
+(28m) reservior sampling
+--https://www.geeksforgeeks.org/select-a-random-number-from-stream-with-o1-space/
+--https://www.geeksforgeeks.org/reservoir-sampling/
