@@ -61,3 +61,6 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 (28m) reservior sampling
 --https://www.geeksforgeeks.org/select-a-random-number-from-stream-with-o1-space/
 --https://www.geeksforgeeks.org/reservoir-sampling/
+
+(29)edit ddistance dynamic programing
+--https://www.youtube.com/watch?v=MiqoA-yF-0M
