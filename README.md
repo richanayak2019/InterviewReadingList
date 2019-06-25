@@ -64,3 +64,26 @@ https://sanaulla.info/2009/07/12/nothingness-2/
 
 (29)edit ddistance dynamic programing
 --https://www.youtube.com/watch?v=MiqoA-yF-0M
+
+(30)spark reading bigger files than cluster memory
+https://stackoverflow.com/questions/44961602/how-spark-handle-data-larger-than-cluster-memory
+
+(31)how to read using java program a file if ram is not enough
+https://www.researchgate.net/post/How_can_I_open_a_text_file_of_large_size_3GB_in_read_mode_in_C_language2
+
+(32) spark architecture
+https://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-12.pdf
+
+(33)spark vs traditional hadoop pros and cons
+-- cons hadoop can job can still work if not enough memory is available
+
+(34)java thread heap and stack access from sibling thread access
+
+(35)single core can run infinite loop process willl hang system.
+
+(36)puzzle party one celibrity , every one knows celibrity and but not all others . celebrity doesn't any one .
+how to identify celibrity
+
+(37) in circle petrol pumps are at different distances and offer different petrol pum, identify if can complete cicle or not with fixed milage and capaciy.
+
+
