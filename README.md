@@ -84,6 +84,10 @@ https://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-12.pdf
 (36)puzzle party one celibrity , every one knows celibrity and but not all others . celebrity doesn't any one .
 how to identify celibrity
 
+(37) concurent update in mongo , row locking and other approaches using redis keys.
+
+(38)
+
 (37) in circle petrol pumps are at different distances and offer different petrol pum, identify if can complete cicle or not with fixed milage and capaciy.
 
 
