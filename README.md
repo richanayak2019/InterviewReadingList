@@ -86,8 +86,27 @@ how to identify celibrity
 
 (37) concurent update in mongo , row locking and other approaches using redis keys.
 
-(38)
+(38)redis transaction commits and expiry and mongo document level locking
 
 (37) in circle petrol pumps are at different distances and offer different petrol pum, identify if can complete cicle or not with fixed milage and capaciy.
 
+(38)kafka internal:-
+https://www.youtube.com/watch?v=neCV_AwRWbQ
+https://www.youtube.com/watch?v=k-7lz6Ex354
+
+(39)k size words having edit distance apart from a given set.
+-- hint out of box if k places ignoring characters and storing in hash table.
+
+(38)dag cycle detection complexity . dfs traversal complexity
+
+(40)dag source code.
+
+(41)web sockets vs long pooling
+
+(42) nobber of cluster needed for sockets and ports and file descriptors getting exhauseted
+
+(43)thread share same memory with parent process. how to access threads memory from another thread.
+heap vs stack data generation.
+
+(44)
 
