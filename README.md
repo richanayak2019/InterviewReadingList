@@ -108,5 +108,33 @@ https://www.youtube.com/watch?v=k-7lz6Ex354
 (43)thread share same memory with parent process. how to access threads memory from another thread.
 heap vs stack data generation.
 
-(44)
+(44)hbase CP http://a4academics.com/tutorials/83-hadoop/839-hbase-architecture
+
+(45)mongo db vs casasandra :-http://a4academics.com/tutorials/83-hadoop/845-differences-mongodb-cassandra
+
+(46)zero copy :- https://developer.ibm.com/articles/j-zerocopy/
+
+(47)  hbase question:- http://a4academics.com/interview-questions/85-big-data/854-hbase
+
+(48)map reduce question :- http://a4academics.com/interview-questions/85-big-data/855-map-reduce
+
+(49)how to choose kafka topics and partitions:-
+https://www.confluent.io/blog/how-choose-number-topics-partitions-kafka-cluster
+
+(50)Why Kafka is not P in CAP theorem
+https://stackoverflow.com/questions/51375187/why-kafka-is-not-p-in-cap-theorem/51379079
+
+(51) kafka inter cluster replication :-
+https://engineering.linkedin.com/kafka/intra-cluster-replication-apache-kafka
+
+(51)kafka design:-https://kafka.apache.org/documentation/#design
+
+(52)kafka notes:-
+https://aphyr.com/posts/293-jepsen-kafka
+https://blog.empathybox.com/post/62279088548/a-few-notes-on-kafka-and-jepsen
+
+(53) cassssandra notes:-
+https://aphyr.com/posts/294-call-me-maybe-cassandra/
+
+
 
