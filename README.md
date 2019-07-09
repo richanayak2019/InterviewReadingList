@@ -136,5 +136,6 @@ https://blog.empathybox.com/post/62279088548/a-few-notes-on-kafka-and-jepsen
 (53) cassssandra notes:-
 https://aphyr.com/posts/294-call-me-maybe-cassandra/
 
-
+(54) hbase design for messive data
+https://eng.uber.com/data-partitioning-global-indexing/
 
