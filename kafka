@@ -51,3 +51,6 @@ Q:
 CDC connectors will they cause performance impact on the source database .We have MSSQL 2016 source database
 A:
 No, CDC connectors do not impact the underlying DB performance.
+
+on scaling up existing topic will not started coming to new brokers so yu have to do mannualy. on scalling down also you have to mannualy do those configuration.
+
