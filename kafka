@@ -1,0 +1,53 @@
+Webinar staffto everyone
+Q:
+Question for later - if it is possible to get an overview of the features automated via Confluent Cloud compared the the infrastructure we would otherwise need to setup and manage in-house?
+A:
+Hello Peter, I'd be happy to review this with you. At a high-level you get Kafka Brokers and Zookpeers in a scalable architecture that is completely automated. It can be configured across one Availlabilty Zone or 3 AZs. Confluent Cloud is currently available in GCP and AWS and will be launching in Azure within a couple of months. Confluent Cloud also offers managed Schema Registry, managed KSQL and we currently have a managed S3 connector in preview. The Cloud UI also gives you Topic metrics around data in/out as well as Consumer Lag. Full Topic ACLs are available via the CLI.
+9:32 AM
+Webinar staffto everyone
+Q:
+How can we use Confluent with Kubernetes and Openshift .Can I please get some details
+A:
+Confluent has Confluent Operator available which runs the entire Confluent stack on Kubernetes. It automates deployment and lifecycle operations of Apache Kafka and Confluent Platform. It operationalises years of experience acquired by Confluent running cloud-native Apache Kafka. It includes auto-scaling, rolling re-starts for upgrades along with many other features. We also have Helm charts (https://github.com/confluentinc/cp-helm-charts). These config templates simplify deployment of Confluent to your pods.
+9:32 AM
+Webinar staffto everyone
+Q:
+What contexts and use cases would we still use an EDW for? Or is KSQL intended to replace it completely?
+A:
+KSQL is one of many query engines to get at your data. Essentially with Kafka you can add any Sink Connector that you'd like to create a Materialised View onto that data. These Views are updated in real-time and you can choose any way you want to query your data by just plugging in any engine (SQL db, nosql, graph db, etc). And soon Confluent will offer flexible options to have data stored in Topics stay in those topics for as long as you require which further blurs the lines from EDW or Data Lakes.
+9:36 AM
+Webinar staffto everyone
+Q:
+Do you provide professional services for the configuration and operations?
+A:
+Absolutely, we have an entire Professional Services team here in Australia and across APAC. They have a Datacentre configuration / operations workshop that takes into account your specific requirements
+9:39 AM
+Webinar staffto everyone
+Q:
+How many records/frequency in an event stream does kafka really need >1 cluster or partition for ? - more detail: if we only have several million records in a year, we probably wouldn't need more than 1 cluster? How much 'big data' (and at what frequency, e.g. > 10 million per hour' requires more than 1 cluster in kafka?
+A:
+One properly configured Kafka cluster can manage up to 100's of millions of records per day, so to answer your question: Yes, you would only need one for several million in a year. To give a bit more context to that, this cluster would be about 4 brokers and use commodity hardware. It could handle around 100,000 events per second, this is 360 million per hour, 8.6 billion events per day. Storage becomes your main issue there :)
+9:43 AM
+Webinar staffto everyone
+Q:
+What are your suggested criteria / triggers for scaling up the Kafka architecture. E.g., what tells me how many Kafka partitions? Thanks.
+A:
+I just answered a question on scaling, did that answer your question? If not please let me know.
+9:44 AM
+Webinar staffto everyone
+Q:
+Is the cache like a staging area copy?
+A:
+The cache is effectively a "Materialised View". This means that it is subscribed to Kafka which is the Source of Truth. You can plug in any query engine that you need for your project (SQL DB, nosql, graph db, elastic search, redis, etc).
+9:45 AM
+Webinar staffto everyone
+Q:
+Can share how to support multi-tier storage of message persistence , in terms of message life cycle management?
+A:
+Kafka allows for any number of Consumers to consume data. This means you can create a pluggable architecture using Kafka Connect to sink data to multiple persistance back-ends (S3 buckets, Google Cloud storage, Cassandra, HDFS, etc). These all can consume at the same time and are getting data from the Source of Truth (Kafka).
+9:48 AM
+Webinar staffto everyone
+Q:
+CDC connectors will they cause performance impact on the source database .We have MSSQL 2016 source database
+A:
+No, CDC connectors do not impact the underlying DB performance.
