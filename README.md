@@ -139,3 +139,15 @@ https://aphyr.com/posts/294-call-me-maybe-cassandra/
 (54) hbase design for messive data
 https://eng.uber.com/data-partitioning-global-indexing/
 
+(55)KAfka multiple topic how to read combined streamdddo join. ### TODO
+
+(56)Spring Dependency injection how it works. ### todo
+
+(57)Scala Future question:-
+### Future(a+b)  and Future(db.runSql(query))  what are your comments
+###  Asycn call is cpu intensive as context switch and db.connection pool already has threaded operation calling one thread from another async thread may cause waiting isssue.
+
+(58) JAVA classloaders types and how they works
+### When run simple hellow world which class first loaded etc.
+
+
