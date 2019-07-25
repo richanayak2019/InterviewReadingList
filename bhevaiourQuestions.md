@@ -62,3 +62,20 @@ Failure https://youtu.be/eaUUeFoB9CQ
 33. Tell me about a time you recovered from a difficult situation
 34. Tell me about a time you failed and what you learned from it
 35. Why Amazon https://youtu.be/H_KGM0i9jkA
+
+
+
+CUSTOMER OBSESSION: Walk us through a time when you helped a customer through a difficult process and what that looked like.
+OWNERSHIP: Give me a example of when you took a risk and it failed.
+INVENT AND SIMPLIFY: Tell me a time when you created an innovative product.
+ARE RIGHT, A LOT: Tell me about a time when you observed two business opportunities to improve ROI, and how did you determine that they were connected.
+LEARN AND BE CURIOUS: How do you find the time to stay inspired, acquire new knowledge, innovate in your work?
+HIRE AND DEVELOP THE BEST: Tell me about a time when you had to deal with a poor performer on your team.
+INSIST ON THE HIGHEST STANDARDS: Tell me about a time when you could have stopped working but persisted.
+THINK BIG: Tell me about a time when you proposed a new business.
+BIAS FOR ACTION: Describe how you would handle a busy situation where three people are waiting for help from you.
+FRUGALITY: Tell me about a time where you thought of a clever new way to save money for the company.
+EARN TRUST: Tell me a time when you earned trust of a group.
+DIVE DEEP: Tell me about a time when you had to dive deep into the data and the results you achieved.
+HAVE BACKBONE, DISAGREE AND COMMIT : Tell me about the most difficult interaction you had at work.
+DELIVER RESULTS: Tell me about a time where you overcame an obstacle and delivered results.
