@@ -3,7 +3,7 @@ What you did beyond your normal duty
 what is biggets failure
 what do you like from big company vs small company
 ### whay did you left :- 
-# was in blore , company was divided into lore , pune and delhi so moved back after another due to marriage and other reponsibilities.
+#### was in blore , company was divided into lore , pune and delhi so moved back after another due to marriage and other reponsibilities.
 
 
 Amazon Interview Coaching: http://www.amazoninterview.coach/inde... 
