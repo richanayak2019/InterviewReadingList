@@ -150,4 +150,17 @@ https://eng.uber.com/data-partitioning-global-indexing/
 (58) JAVA classloaders types and how they works
 ### When run simple hellow world which class first loaded etc.
 
+(59) design pattern code factory and difference between proxy, adapter, 
 
+(60) How will you make multiple microservices to have token based access for group request. 
+
+(61)Spring how autowired work and based to parsing anotation  and building class object using reflections.
+
+(62) if during composition some class has memeber as inheritance type and there are two class with such inheritance imple,entation then which one spring use for dependency injection.  error will come.
+
+(63)composition vs aggregation and association
+
+(64)if need to build dash board of sales order data . some order span across years so how to do it using kafka .can kafka join across topic is possible. you need master table of relation data in one kafka data like all user ids.
+
+
+(65)
