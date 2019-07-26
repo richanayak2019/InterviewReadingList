@@ -6,3 +6,16 @@ https://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview
 https://docs.google.com/document/d/1dNKjHICogW5f94MKoBr8wDA3TASbhP0nrcy4eKiuA8Q/edit#
 #### design uber :- https://puncsky.com/notes/120-designing-uber
 https://puncsky.com/hacking-the-software-engineer-interview/?isAdmin=true
+
+##### unique id across cluster and unique sequnce id across cluster https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c
+https://stackoverflow.com/questions/2671858/distributed-sequence-number-generation/5685869
+
+
+
+##### sharding in mongo https://docs.mongodb.com/manual/sharding/
+mongo replication https://docs.mongodb.com/manual/replication/
+https://docs.mongodb.com/manual/applications/replication/
+
+##### mongo atomicity
+https://docs.mongodb.com/manual/core/transactions/#transactions-and-atomicity
+write concern and ackoledge  https://docs.mongodb.com/manual/core/transactions/#read-concern-write-concern-read-preference
