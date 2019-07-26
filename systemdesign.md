@@ -27,3 +27,5 @@ Why isn't RDBMS Partition Tolerant in CAP Theorem and why is it Available?
 there is no concept of P in non distributed sustems. in case primary and secondry relplica secondry become primary in rds.
 
 
+##### kafka is CA https://stackoverflow.com/questions/51375187/why-kafka-is-not-p-in-cap-theorem/51379079
+due to arbbitartay node failure it can handle upto n-1 failure . It  can handle 1 billion writes per sond due to no copy feature from kernel to user memeory. consistancy can be controled like mongo to have ack from All isr. in case of failure it has to elect other leader which may not in icr and stopped servicng due to voilation of liner ordering.
