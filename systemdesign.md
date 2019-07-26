@@ -19,3 +19,11 @@ https://docs.mongodb.com/manual/applications/replication/
 ##### mongo atomicity
 https://docs.mongodb.com/manual/core/transactions/#transactions-and-atomicity
 write concern and ackoledge  https://docs.mongodb.com/manual/core/transactions/#read-concern-write-concern-read-preference
+mongo is CP , C can we eventualor strong based on reading from secondry or primary. during P mongo elect another primary and so become A hense it is not consistent due to roleback . also can become unavaialbe for 10 seconds
+
+
+##### RDBMS
+Why isn't RDBMS Partition Tolerant in CAP Theorem and why is it Available?
+there is no concept of P in non distributed sustems. in case primary and secondry relplica secondry become primary in rds.
+
+
