@@ -1,3 +1,5 @@
+## visula algo https://visualgo.net/en
+
 ### binary tree print diagonal wise:-https://www.youtube.com/watch?v=e9ZGxH1y_PE
 ### binary tree algos :- https://github.com/mission-peace/interview/tree/master/src/com/interview/tree
 ### binary vertical traversal https://www.youtube.com/watch?v=PQKkr036wR
