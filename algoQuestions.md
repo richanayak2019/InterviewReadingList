@@ -9,16 +9,16 @@
 ### LCA https://www.youtube.com/watch?v=F-_1sbnPbWQ&list=PLeIMaH7i8JDj7DnmO7lll97P1yZjMCpgY&index=24
 ### A well has rings of different sizes unsorted , you have to throw disk. FInd O(n) solution how many disk you can throw.
  Ans- use stack from front to find min ring seen so far . Then try to do pop operation to find how many input disk can be thrown.
-###Find smallest anagram subbsequence of one string in another string . Hint use sliding window and 2 hash table. O(n approach)
+### Find smallest anagram subbsequence of one string in another string . Hint use sliding window and 2 hash table. O(n approach)
 ex:- S1:this  is a java test  s2: testi
 
-###218. The Skyline Problem
-#####use segment trees or n^2log n sorting approach
+### 218. The Skyline Problem
+##### use segment trees or n^2log n sorting approach
 
-###493. Reverse Pairs
-#####use merge sort kind of approach
+### 493. Reverse Pairs
+##### use merge sort kind of approach
 
-###327. Count of Range Sum
+### 327. Count of Range Sum
 
 
 ##segment trees
