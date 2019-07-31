@@ -21,8 +21,8 @@ ex:- S1:this  is a java test  s2: testi
 ### 327. Count of Range Sum
 
 
-##segment trees
-https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/#
+## segment trees
+#### https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/#
 
 #### https://leetcode.com/problems/range-sum-query-mutable/discuss/75753/Java-using-Binary-Indexed-Tree-with-clear-explanation
 #### https://visualgo.net/en/segmenttree
