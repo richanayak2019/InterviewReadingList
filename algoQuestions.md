@@ -20,6 +20,7 @@ ex:- S1:this  is a java test  s2: testi
 ##### use merge sort kind of approach
 
 ## 327. Count of Range Sum
+#### https://leetcode.com/problems/range-sum-query-mutable/
 
 
 ## segment trees
