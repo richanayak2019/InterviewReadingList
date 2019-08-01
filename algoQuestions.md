@@ -34,3 +34,7 @@ ex:- S1:this  is a java test  s2: testi
 
 ## number of numbers smaller than self
 ####  https://leetcode.com/problems/count-of-smaller-numbers-after-self/submissions/
+
+## fenwic tree or binary index tree
+#### https://www.youtube.com/watch?v=CWDQJGaN1gY
+#### segment tree take 4n space , bIT takes n additional space. search and update operation are O(nlogn)
