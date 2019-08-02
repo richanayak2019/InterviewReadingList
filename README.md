@@ -163,4 +163,6 @@ https://eng.uber.com/data-partitioning-global-indexing/
 (64)if need to build dash board of sales order data . some order span across years so how to do it using kafka .can kafka join across topic is possible. you need master table of relation data in one kafka data like all user ids.
 
 
-(65)
+(65)how to rebalance kafka topic . how to add new node in kafka . spark streaming in mini batch . how to do relatime work with kafka data . how to descide kafka topic and partition.
+
+(66)
