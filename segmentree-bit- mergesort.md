@@ -467,3 +467,189 @@ private void merge(int[] nums, int[] indexes, int start, int end){
 }
 
 ```
+
+## python  count smaller than self 
+
+#### segment tree , bit and divide and conquore approach
+
+```
+# Insertion Sort Method
+class Solution(object):
+    def countSmaller(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        visited_nums = []
+        res = []
+        for i in xrange(len(nums) - 1,- 1,- 1):
+            idx = self.first_larger_or_equal(visited_nums,nums[i])
+            res.append(idx)
+        
+        return res[:: - 1]
+    
+    def first_larger_or_equal(self,nums,target):
+        if not nums:
+            nums.append(target)
+            return 0
+        l,r = 0,len(nums) - 1
+        while l + 1 < r:
+            mid = l + (r - l) / 2
+            if nums[mid] > target:
+                r = mid
+            elif nums[mid] == target:
+                r = mid
+            else:
+                l = mid
+        if nums[l] >= target:
+            nums.insert(l,target)
+            return l
+        if nums[r] >= target:
+            nums.insert(r,target)
+            return r
+        nums.append(target)
+        return len(nums) - 1
+
+# Divide Conquer Method
+class Solution(object):
+    def countSmaller(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        if not nums:
+            return []
+        res = [0 for _ in xrange(len(nums))]
+        self.check(nums,res,0,len(nums) - 1)
+        return res
+    
+    def check(self,nums,res,start,end):
+        if start >= end:
+            return [start]
+        mid = (start + end) / 2
+        left = self.check(nums,res,start,mid)
+        right = self.check(nums,res,mid + 1,end)
+        new_nums = []
+        idx_l,idx_r = 0,0
+        while idx_l <= mid - start and idx_r <= end - mid - 1:
+            if nums[left[idx_l]] > nums[right[idx_r]]:
+                res[left[idx_l]] += end - mid - 1 - idx_r + 1
+                new_nums.append(left[idx_l])
+                idx_l += 1
+                
+            else:
+                new_nums.append(right[idx_r])
+                idx_r += 1
+                
+        while idx_l <= mid - start:
+            new_nums.append(left[idx_l])
+            idx_l += 1
+        while idx_r <= end - mid - 1:
+            new_nums.append(right[idx_r])
+            idx_r += 1
+        return new_nums      
+
+# Segment Tree Method
+class TreeNode(object):
+    def __init__(self,start,end):
+        self.start,self.end = start,end
+        self.left,self.right = None,None
+        self.val = 0
+    
+class Solution(object):
+    def countSmaller(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        nums_unique = list(set(nums))
+        nums_sorted = sorted(nums_unique)
+        num_to_idx = {num:i + 1 for i,num in enumerate(nums_sorted)}
+        
+        root = self.build(1,len(nums_unique))
+        res = []
+        
+        for i in xrange(len(nums) - 1,- 1,- 1):
+            self.modify(root,num_to_idx[nums[i]])
+            res.append(self.query(root,1,num_to_idx[nums[i]] - 1))
+        
+        return res[:: - 1]
+    
+    def build(self,start,end):
+        if start > end:
+            return 
+        
+        root = TreeNode(start,end)
+        if start == end:
+            return root
+        mid = (start + end) / 2
+        root.left = self.build(start,mid)
+        root.right = self.build(mid + 1,end)
+        return root
+    
+    def modify(self,node,idx):
+        start,end = node.start,node.end
+        if start == end:
+            node.val += 1
+            return
+        
+        mid = (start + end) / 2
+        if idx <= mid:
+            self.modify(node.left,idx)
+        if idx > mid:
+            self.modify(node.right,idx)
+            
+        node.val = node.left.val + node.right.val
+        
+    
+    def query(self,node,l,r):
+        start,end = node.start,node.end
+        if r < start or l > end:
+            return 0
+        if l == start and r == end:
+            return node.val 
+        
+        mid = (start + end) / 2
+        if r <= mid:
+            return self.query(node.left,max(l,start),r)
+        elif l > mid:
+            return self.query(node.right,l,min(r,end))
+        else:
+            return self.query(node.left,max(l,start),mid) + self.query(node.right,mid + 1,min(r,end))    
+        
+# Binary Indexed Tree Method
+class Solution(object):
+    def countSmaller(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        nums_unique = list(set(nums))
+        nums_sorted = sorted(nums_unique)
+        num_to_idx = {num:i + 1 for i,num in enumerate(nums_sorted)}
+        
+        bit = [0 for _ in xrange(len(nums_unique) + 1)]
+        res = []
+        for i in xrange(len(nums) - 1,- 1,- 1):
+            self.update(bit,num_to_idx[nums[i]])
+            res.append(self.query(bit,num_to_idx[nums[i]] - 1))
+        
+        return res[:: - 1]
+    
+    def update(self,bit,num):
+        while num <= len(bit) - 1:
+            bit[num] += 1
+            num += self.lowbit(num)
+    
+    def query(self,bit,num):
+        res = 0
+        while num > 0:
+            res += bit[num]
+            num -= self.lowbit(num)
+        return res
+    
+    def lowbit(self,num):
+        return num & - num 
+        
+	
+```
