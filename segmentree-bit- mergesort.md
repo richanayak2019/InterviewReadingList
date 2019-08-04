@@ -249,10 +249,10 @@ Count of Range Sum
 ```
 
 
-##850. Rectangle Area II 
+## 850. Rectangle Area II 
 #### https://leetcode.com/articles/rectangle-area-ii/#
 
-Approach #2: Coordinate Compression
+### Approach #2: Coordinate Compression
 Intuition
 
 Image from problem description
@@ -326,7 +326,7 @@ Space Complexity: O(N^2)O(N
 
 
 ```
-nlogn approach
+### nlogn approach
 Approach #3: Line Sweep
 Intuition
 
