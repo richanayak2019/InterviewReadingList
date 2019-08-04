@@ -250,8 +250,8 @@ Count of Range Sum
 
 
 ##850. Rectangle Area II 
+#### https://leetcode.com/articles/rectangle-area-ii/#
 
-```
 Approach #2: Coordinate Compression
 Intuition
 
@@ -269,6 +269,8 @@ Re-map each x coordinate to 0, 1, 2, .... Independently, re-map all y coordinate
 We then have a problem that can be solved by brute force: for each rectangle with re-mapped coordinates (rx1, ry1, rx2, ry2), we can fill the grid grid[x][y] = True for rx1 <= x < rx2 and ry1 <= y < ry2.
 
 Afterwards, each grid[rx][ry] represents the area (imapx(rx+1) - imapx(rx)) * (imapy(ry+1) - imapy(ry)), where if x got remapped to rx, then imapx(rx) = x ("inverse-map-x of remapped-x equals x"), and similarly for imapy.
+```
+
 class Solution {
     public int rectangleArea(int[][] rectangles) {
         int N = rectangles.length;
