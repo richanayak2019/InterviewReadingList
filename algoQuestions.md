@@ -53,3 +53,15 @@ ex:- S1:this  is a java test  s2: testi
 #### 
 #### https://stackoverflow.com/questions/31326956/understanding-parity-of-a-number
 #### https://stackoverflow.com/questions/17350906/computing-the-parity
+
+## Application of djkistras  , cycle elated problem
+#### minimum weight cycle, Djkistras shortest path , https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+#### minimium average weight cycle , DP ,  https://www.hackerearth.com/practice/notes/karp-minimum-mean-weighted-cycle/
+#### minimm mean avergage cycle , KARP ,https://www.geeksforgeeks.org/karps-minimum-mean-average-weight-cycle-algorithm/
+
+## Hmailtonian cycle or path 
+#### algorithm will not give minimum or max just give cycle with out visiting any node twice
+#### https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/
+#### https://www.youtube.com/watch?v=dQr4wZCiJJ4
+
+
