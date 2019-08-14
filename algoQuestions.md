@@ -38,3 +38,18 @@ ex:- S1:this  is a java test  s2: testi
 ## fenwic tree or binary index tree
 #### https://www.youtube.com/watch?v=CWDQJGaN1gY
 #### segment tree take 4n space , bIT takes n additional space. search and update operation are O(nlogn)
+
+## graph problems
+#### union find and kruskal
+#### https://www.youtube.com/watch?v=ID00PMy0-vE
+#### https://leetcode.com/problems/connecting-cities-with-minimum-cost/discuss/?currentPage=1&orderBy=recent_activity&query=
+#### dijzstras
+#### https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
+#### https://leetcode.com/problems/cheapest-flights-within-k-stops/
+#### 
+
+## bit algorihms
+#### odd even parity    using  sifting log N approach
+#### 
+#### https://stackoverflow.com/questions/31326956/understanding-parity-of-a-number
+#### https://stackoverflow.com/questions/17350906/computing-the-parity
