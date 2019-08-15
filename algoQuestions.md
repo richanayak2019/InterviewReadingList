@@ -46,7 +46,7 @@ ex:- S1:this  is a java test  s2: testi
 #### dijzstras
 #### https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
 #### https://leetcode.com/problems/cheapest-flights-within-k-stops/
-#### 
+ 
 
 ## bit algorihms
 #### odd even parity    using  sifting log N approach
@@ -68,6 +68,11 @@ ex:- S1:this  is a java test  s2: testi
 #### https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/
 #### https://www.youtube.com/watch?v=dQr4wZCiJJ4
 
+
+## sliding window approach based
+#### petrol pum tour  https://www.tutorialcup.com/array/circular-tour-visit-petrol-bunks.htm
+#### Maximum product subarray  https://www.tutorialcup.com/array/maximum-product-subarray.htm
+ 
 
 
 
