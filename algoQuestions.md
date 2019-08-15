@@ -53,6 +53,10 @@ ex:- S1:this  is a java test  s2: testi
 #### 
 #### https://stackoverflow.com/questions/31326956/understanding-parity-of-a-number
 #### https://stackoverflow.com/questions/17350906/computing-the-parity
+#### HANDSHAKING LEMMA  https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/
+#### count of even subarray sum  https://stackoverflow.com/questions/48495159/use-of-handshaking-lemma-to-find-number-of-subarrays-with-even-sum
+#### count of odd suarray https://www.geeksforgeeks.org/number-of-subarrays-with-odd-sum/
+#### count of even subarray sum https://www.geeksforgeeks.org/find-number-subarrays-even-sum/
 
 ## Application of djkistras  , cycle elated problem
 #### minimum weight cycle, Djkistras shortest path , https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
@@ -63,5 +67,7 @@ ex:- S1:this  is a java test  s2: testi
 #### algorithm will not give minimum or max just give cycle with out visiting any node twice
 #### https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/
 #### https://www.youtube.com/watch?v=dQr4wZCiJJ4
+
+
 
 
