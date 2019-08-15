@@ -55,8 +55,8 @@ ex:- S1:this  is a java test  s2: testi
 #### https://stackoverflow.com/questions/17350906/computing-the-parity
 #### HANDSHAKING LEMMA  https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/
 #### count of even subarray sum  https://stackoverflow.com/questions/48495159/use-of-handshaking-lemma-to-find-number-of-subarrays-with-even-sum
-#### count of odd suarray https://www.geeksforgeeks.org/number-of-subarrays-with-odd-sum/
-#### count of even subarray sum https://www.geeksforgeeks.org/find-number-subarrays-even-sum/
+#### count of odd suarray https://www.geeksforgeeks.org/number-of-subarrays-with-odd-sum/  ,https://stackoverflow.com/questions/51947566/count-number-of-subarrays-with-odd-sum
+#### count of even subarray sum https://www.geeksforgeeks.org/find-number-subarrays-even-sum/  , 
 
 ## Application of djkistras  , cycle elated problem
 #### minimum weight cycle, Djkistras shortest path , https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
